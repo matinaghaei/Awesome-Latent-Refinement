@@ -128,4 +128,6 @@ When adding a paper, briefly explain:
 
 ## 📜 License
 
-MIT (or choose your preferred license)
+This repository is licensed under the **Creative Commons Zero v1.0 Universal (CC0 1.0)**.
+
+You are free to use, modify, and distribute this work without restriction.
