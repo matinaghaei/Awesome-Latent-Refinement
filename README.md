@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="cover.jpg" width="700"/>
+  <img src="cover.jpg" width="600"/>
 </p>
 
 ⭐ If you find this useful, please consider giving the repo a star!
