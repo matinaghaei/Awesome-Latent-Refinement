@@ -1,5 +1,5 @@
 <h1 align="center">🧬 Awesome Latent Refinement</h1>
-<h3 align="center"><em>Research on Iterative Reasoning & Planning in Latent Space</em></h3>
+<h3 align="center"><em>Iterative Reasoning & Planning in Latent Space</em></h3>
 
 <p align="center">
   <a href="https://awesome.re">
@@ -17,10 +17,14 @@
 </p>
 
 <p align="center">
-  <img src="cover.jpg" width="600"/>
+  <img src="cover.jpg" width="650"/>
 </p>
 
-⭐ If you find this useful, please consider giving the repo a star!
+<br/>
+
+<p align="center">
+  ⭐ If you find this useful, please consider giving the repo a star!
+</p>
 
 ---
 
