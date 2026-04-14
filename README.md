@@ -33,9 +33,11 @@
 - [🎯 Aim of the Project](#-aim-of-the-project)
 - [🧬 Supervised Latent Refinement](#-supervised-latent-refinement)
   - [🧠 Dedicated Reasoners](#-dedicated-reasoners)
-  - [🔁 Language Models](#-language-models)
+  - [🔁 Looped Language Models](#-looped-language-models)
 - [🎮 Reinforcement-Learned Latent Refinement](#-reinforcement-learned-latent-refinement)
   - [🗺️ Model-Free Planning](#️-model-free-planning)
+  - [♻️ Recurrent Reasoning Agents](#%EF%B8%8F-recurrent-reasoning-agents)
+  - [⏱️ Compute in RL](#%EF%B8%8F-compute-in-rl)
 - [🔒 Inclusion Criteria](#-inclusion-criteria)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
@@ -65,9 +67,15 @@ Models that learn to perform **iterative updates over latent state** for reasoni
 
 - **TRM**: "Less is More: Recursive Reasoning with Tiny Networks". [![arXiv](https://img.shields.io/badge/arXiv-2510.04871-b31b1b.svg)](https://arxiv.org/abs/2510.04871) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/SamsungSAILMontreal/TinyRecursiveModels)
 
+- **Tiny Recursive Reasoning with Mamba-2 Attention Hybrid**. [![arXiv](https://img.shields.io/badge/arXiv-2602.12078-b31b1b.svg)](https://arxiv.org/abs/2602.12078)  
+  A TRM-line extension that studies hybrid recursive operators while keeping latent recursive reasoning intact.
+
 - **SE-RRM**: "Symbol-Equivariant Recurrent Reasoning Models". [![arXiv](https://img.shields.io/badge/arXiv-2603.02193-b31b1b.svg)](https://arxiv.org/abs/2603.02193) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ml-jku/SE-RRM)
 
-### 🔁 Language Models
+- **Recursive Inference Machines for Neural Reasoning**. [![arXiv](https://img.shields.io/badge/arXiv-2603.05234-b31b1b.svg)](https://arxiv.org/abs/2603.05234)  
+  Generalizes recursive latent-state updates into a broader inference-machine framework for neural reasoning.
+
+### 🔁 Looped Language Models
 
 - **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach**. [![arXiv](https://img.shields.io/badge/arXiv-2502.05171-b31b1b.svg)](https://arxiv.org/abs/2502.05171) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/seal-rg/recurrent-pretraining)
 
@@ -79,7 +87,15 @@ Models that learn to perform **iterative updates over latent state** for reasoni
 
 - **Efficient Parallel Samplers for Recurrent-Depth Models and Their Connection to Diffusion Language Models**. [![arXiv](https://img.shields.io/badge/arXiv-2510.14961-b31b1b.svg)](https://arxiv.org/abs/2510.14961) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=z62rRFnNaX) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/seal-rg/recurrent-pretraining)
 
-- **Parallel Loop Transformer (PLT) for Efficient Test-Time Computation Scaling**. [![arXiv](https://img.shields.io/badge/arXiv-2510.24824-b31b1b.svg)](https://arxiv.org/abs/2510.24824)
+- **PLT**: "Parallel Loop Transformer (PLT) for Efficient Test-Time Computation Scaling". [![arXiv](https://img.shields.io/badge/arXiv-2510.24824-b31b1b.svg)](https://arxiv.org/abs/2510.24824)
+
+- **Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking**. [![arXiv](https://img.shields.io/badge/arXiv-2502.13842-b31b1b.svg)](https://arxiv.org/abs/2502.13842)
+
+- **Depth-Recurrent Attention Mixtures: Giving Latent Reasoning the Attention it Deserves**. [![arXiv](https://img.shields.io/badge/arXiv-2601.21582-b31b1b.svg)](https://arxiv.org/abs/2601.21582)
+
+- **LoopFormer**: "Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation". [![arXiv](https://img.shields.io/badge/arXiv-2602.11451-b31b1b.svg)](https://arxiv.org/abs/2602.11451)
+
+- **Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers**. [![arXiv](https://img.shields.io/badge/arXiv-2604.07822-b31b1b.svg)](https://arxiv.org/abs/2604.07822)
 
 ### 🚫 Excluded (Supervised)
 
@@ -96,13 +112,19 @@ Agents that develop **iterative latent computation** through interaction and rew
 
 ### 🗺️ Model-Free Planning
 
-- **An Investigation of Model-Free Planning**. [![Paper](https://img.shields.io/badge/Paper-PMLR-blue.svg)](https://proceedings.mlr.press/v97/guez19a.html) [![Code](https://img.shields.io/badge/Code-Boxoban-green.svg)](https://github.com/google-deepmind/boxoban-levels)
+- **An Investigation of Model-Free Planning**. [![arXiv](https://img.shields.io/badge/arXiv-1901.00137-b31b1b.svg)](https://arxiv.org/abs/1901.00137) [![Code](https://img.shields.io/badge/Code-Boxoban-green.svg)](https://github.com/google-deepmind/boxoban-levels)
 
 - **Planning in a recurrent neural network that plays Sokoban**. [![arXiv](https://img.shields.io/badge/arXiv-2407.15421-b31b1b.svg)](https://arxiv.org/abs/2407.15421) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=ORxjH9kTp8) [![Code](https://img.shields.io/badge/Code-Analysis-green.svg)](https://github.com/AlignmentResearch/learned-planner) [![Code](https://img.shields.io/badge/Code-Training-green.svg)](https://github.com/AlignmentResearch/train-learned-planner)
 
 - **Interpreting Emergent Planning in Model-Free Reinforcement Learning**. [![arXiv](https://img.shields.io/badge/arXiv-2504.01871-b31b1b.svg)](https://arxiv.org/abs/2504.01871) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=DzGe40glxs) [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://tuphs28.github.io/projects/interpplanning/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/tuphs28/emergent-planning/tree/main)
 
-- **On Computation and Reinforcement Learning**. [![arXiv](https://img.shields.io/badge/arXiv-2602.05999-b31b1b.svg)](https://arxiv.org/abs/2602.05999) [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://rajghugare19.github.io/computation-rl/index.html)
+### ♻️ Recurrent Reasoning Agents
+
+- **HRM-Agent**: "HRM-Agent: Training a recurrent reasoning model in dynamic environments using reinforcement learning". [![arXiv](https://img.shields.io/badge/arXiv-2510.22832-b31b1b.svg)](https://arxiv.org/abs/2510.22832)
+
+### ⏱️ Compute in RL
+
+- **On the Role of Iterative Computation in Reinforcement Learning**. [![arXiv](https://img.shields.io/badge/arXiv-2602.05999-b31b1b.svg)](https://arxiv.org/abs/2602.05999) [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://rajghugare19.github.io/computation-rl/index.html)
 
 ### 🚫 Excluded (RL)
 
