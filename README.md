@@ -81,9 +81,13 @@ Architectures explicitly designed to perform reasoning through iterative latent-
 
 Language models that reuse internal computation (e.g., via loops or recurrent depth) to iteratively refine latent representations.
 
+- **Coconut**: "Training Large Language Models to Reason in a Continuous Latent Space". [![arXiv](https://img.shields.io/badge/arXiv-2412.06769-b31b1b.svg)](https://arxiv.org/abs/2412.06769) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=Itxz7S4Ip3) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/facebookresearch/coconut)
+
 - **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach**. [![arXiv](https://img.shields.io/badge/arXiv-2502.05171-b31b1b.svg)](https://arxiv.org/abs/2502.05171) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/seal-rg/recurrent-pretraining)
 
 - **Reasoning with Latent Thoughts: On the Power of Looped Transformers**. [![arXiv](https://img.shields.io/badge/arXiv-2502.17416-b31b1b.svg)](https://arxiv.org/abs/2502.17416) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=din0lGfZFd)
+
+- **Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking**. [![arXiv](https://img.shields.io/badge/arXiv-2502.13842-b31b1b.svg)](https://arxiv.org/abs/2502.13842)
 
 - **Ouro**: "Scaling Latent Reasoning via Looped Language Models". [![arXiv](https://img.shields.io/badge/arXiv-2510.25741-b31b1b.svg)](https://arxiv.org/abs/2510.25741) [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://ouro-llm.github.io/) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Models-yellow.svg)](https://huggingface.co/collections/ByteDance/ouro)
 
@@ -93,13 +97,19 @@ Language models that reuse internal computation (e.g., via loops or recurrent de
 
 - **PLT**: "Parallel Loop Transformer (PLT) for Efficient Test-Time Computation Scaling". [![arXiv](https://img.shields.io/badge/arXiv-2510.24824-b31b1b.svg)](https://arxiv.org/abs/2510.24824)
 
-- **Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking**. [![arXiv](https://img.shields.io/badge/arXiv-2502.13842-b31b1b.svg)](https://arxiv.org/abs/2502.13842)
-
 - **Depth-Recurrent Attention Mixtures: Giving Latent Reasoning the Attention it Deserves**. [![arXiv](https://img.shields.io/badge/arXiv-2601.21582-b31b1b.svg)](https://arxiv.org/abs/2601.21582)
 
-- **LoopFormer**: "Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation". [![arXiv](https://img.shields.io/badge/arXiv-2602.11451-b31b1b.svg)](https://arxiv.org/abs/2602.11451)
+- **GTS**: "Inference-Time Scaling of Latent Reasoning with a Learnable Gaussian Thought Sampler". [![arXiv](https://img.shields.io/badge/arXiv-2602.14077-b31b1b.svg)](https://arxiv.org/abs/2602.14077)
 
-- **Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers**. [![arXiv](https://img.shields.io/badge/arXiv-2604.07822-b31b1b.svg)](https://arxiv.org/abs/2604.07822)
+- **LoopFormer**: "Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation". [![arXiv](https://img.shields.io/badge/arXiv-2602.11451-b31b1b.svg)](https://arxiv.org/abs/2602.11451) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=RzYXb5YWBs) [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://loopformer.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ArmenAgha/loopformer) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Models-yellow.svg)](https://huggingface.co/collections/ArmenAgha/loopformer)
+
+- **Thinking Deeper, Not Longer: Depth-Recurrent Transformers for Compositional Generalization**. [![arXiv](https://img.shields.io/badge/arXiv-2603.21676-b31b1b.svg)](https://arxiv.org/abs/2603.21676)
+
+- **Thinking in Latents: Adaptive Anchor Refinement for Implicit Reasoning in LLMs**. [![arXiv](https://img.shields.io/badge/arXiv-2603.15051-b31b1b.svg)](https://arxiv.org/abs/2603.15051) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=fyWD8DDPKE)
+
+- **Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers**. [![arXiv](https://img.shields.io/badge/arXiv-2604.07822-b31b1b.svg)](https://arxiv.org/abs/2604.07822) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/OSU-NLP-Group/Loop-Think-Generalize)
+
+- **A Mechanistic Analysis of Looped Reasoning Language Models**. [![arXiv](https://img.shields.io/badge/arXiv-2604.11791-b31b1b.svg)](https://arxiv.org/abs/2604.11791)
 
 ### 🚫 Excluded (Supervised)
 
