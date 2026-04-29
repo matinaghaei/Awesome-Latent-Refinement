@@ -34,10 +34,11 @@
 - [🧬 Supervised Latent Refinement](#-supervised-latent-refinement)
   - [🧠 Dedicated Reasoners](#-dedicated-reasoners)
   - [🔁 Looped Language Models](#-looped-language-models)
+  - [🦾 Vision-Language-Action Models](#-vision-language-action-models)
 - [🎮 Reinforcement-Learned Latent Refinement](#-reinforcement-learned-latent-refinement)
   - [🗺️ Model-Free Planning](#️-model-free-planning)
-  - [♻️ Recurrent Reasoning Agents](#%EF%B8%8F-recurrent-reasoning-agents)
-  - [⏱️ Compute in RL](#%EF%B8%8F-compute-in-rl)
+  - [♻️ Recurrent Reasoning Agents](#-recurrent-reasoning-agents)
+  - [⏱️ Compute in RL](#-compute-in-rl)
 - [🔒 Inclusion Criteria](#-inclusion-criteria)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
@@ -69,13 +70,17 @@ Architectures explicitly designed to perform reasoning through iterative latent-
 
 - **TRM**: "Less is More: Recursive Reasoning with Tiny Networks". [![arXiv](https://img.shields.io/badge/arXiv-2510.04871-b31b1b.svg)](https://arxiv.org/abs/2510.04871) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/SamsungSAILMontreal/TinyRecursiveModels)
 
-- **Tiny Recursive Reasoning with Mamba-2 Attention Hybrid**. [![arXiv](https://img.shields.io/badge/arXiv-2602.12078-b31b1b.svg)](https://arxiv.org/abs/2602.12078)  
-  A TRM-line extension that studies hybrid recursive operators while keeping latent recursive reasoning intact.
+- **Your Latent Reasoning is Secretly Policy Improvement Operator**. [![arXiv](https://img.shields.io/badge/arXiv-2511.16886-b31b1b.svg)](https://arxiv.org/abs/2511.16886) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/machinestein/Deep-Improvement-Supervision)
+
+- **Are Your Reasoning Models Reasoning or Guessing? A Mechanistic Analysis of Hierarchical Reasoning Models**. [![arXiv](https://img.shields.io/badge/arXiv-2601.10679-b31b1b.svg)](https://arxiv.org/abs/2601.10679) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/arcprize/hierarchical-reasoning-model-analysis)
+
+- **Tiny Recursive Reasoning with Mamba-2 Attention Hybrid**. [![arXiv](https://img.shields.io/badge/arXiv-2602.12078-b31b1b.svg)](https://arxiv.org/abs/2602.12078)
 
 - **SE-RRM**: "Symbol-Equivariant Recurrent Reasoning Models". [![arXiv](https://img.shields.io/badge/arXiv-2603.02193-b31b1b.svg)](https://arxiv.org/abs/2603.02193) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ml-jku/SE-RRM)
 
-- **Recursive Inference Machines for Neural Reasoning**. [![arXiv](https://img.shields.io/badge/arXiv-2603.05234-b31b1b.svg)](https://arxiv.org/abs/2603.05234)  
-  Generalizes recursive latent-state updates into a broader inference-machine framework for neural reasoning.
+- **Recursive Inference Machines for Neural Reasoning**. [![arXiv](https://img.shields.io/badge/arXiv-2603.05234-b31b1b.svg)](https://arxiv.org/abs/2603.05234)
+
+- **One Step Forward and K Steps Back: Better Reasoning with Denoising Recursion Models**. [![arXiv](https://img.shields.io/badge/arXiv-2604.18839-b31b1b.svg)](https://arxiv.org/abs/2604.18839) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/wwwwwwwwz/DenoisingRecursionModels)
 
 ### 🔁 Looped Language Models
 
@@ -85,31 +90,43 @@ Language models that reuse internal computation (e.g., via loops or recurrent de
 
 - **Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach**. [![arXiv](https://img.shields.io/badge/arXiv-2502.05171-b31b1b.svg)](https://arxiv.org/abs/2502.05171) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/seal-rg/recurrent-pretraining)
 
-- **Reasoning with Latent Thoughts: On the Power of Looped Transformers**. [![arXiv](https://img.shields.io/badge/arXiv-2502.17416-b31b1b.svg)](https://arxiv.org/abs/2502.17416) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=din0lGfZFd)
-
 - **Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking**. [![arXiv](https://img.shields.io/badge/arXiv-2502.13842-b31b1b.svg)](https://arxiv.org/abs/2502.13842)
+
+- **Reasoning with Latent Thoughts: On the Power of Looped Transformers**. [![arXiv](https://img.shields.io/badge/arXiv-2502.17416-b31b1b.svg)](https://arxiv.org/abs/2502.17416) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=din0lGfZFd)
 
 - **Ouro**: "Scaling Latent Reasoning via Looped Language Models". [![arXiv](https://img.shields.io/badge/arXiv-2510.25741-b31b1b.svg)](https://arxiv.org/abs/2510.25741) [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://ouro-llm.github.io/) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Models-yellow.svg)](https://huggingface.co/collections/ByteDance/ouro)
 
 - **Encode, Think, Decode: Scaling test-time reasoning with recursive latent thoughts**. [![arXiv](https://img.shields.io/badge/arXiv-2510.07358-b31b1b.svg)](https://arxiv.org/abs/2510.07358) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=jBSye8M3FQ)
 
+- **Think-at-Hard**: "Selective Latent Iterations to Improve Reasoning Language Models". [![arXiv](https://img.shields.io/badge/arXiv-2511.08577-b31b1b.svg)](https://arxiv.org/abs/2511.08577) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/thu-nics/TaH)
+
 - **Efficient Parallel Samplers for Recurrent-Depth Models and Their Connection to Diffusion Language Models**. [![arXiv](https://img.shields.io/badge/arXiv-2510.14961-b31b1b.svg)](https://arxiv.org/abs/2510.14961) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=z62rRFnNaX) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/seal-rg/recurrent-pretraining)
 
 - **PLT**: "Parallel Loop Transformer (PLT) for Efficient Test-Time Computation Scaling". [![arXiv](https://img.shields.io/badge/arXiv-2510.24824-b31b1b.svg)](https://arxiv.org/abs/2510.24824)
 
-- **Depth-Recurrent Attention Mixtures: Giving Latent Reasoning the Attention it Deserves**. [![arXiv](https://img.shields.io/badge/arXiv-2601.21582-b31b1b.svg)](https://arxiv.org/abs/2601.21582)
-
 - **GTS**: "Inference-Time Scaling of Latent Reasoning with a Learnable Gaussian Thought Sampler". [![arXiv](https://img.shields.io/badge/arXiv-2602.14077-b31b1b.svg)](https://arxiv.org/abs/2602.14077)
+
+- **Inner Loop Inference for Pretrained Transformers: Unlocking Latent Capabilities Without Training**. [![arXiv](https://img.shields.io/badge/arXiv-2602.14759-b31b1b.svg)](https://arxiv.org/abs/2602.14759)
+
+- **From Growing to Looping: A Unified View of Iterative Computation in LLMs**. [![arXiv](https://img.shields.io/badge/arXiv-2602.16490-b31b1b.svg)](https://arxiv.org/abs/2602.16490)
 
 - **LoopFormer**: "Elastic-Depth Looped Transformers for Latent Reasoning via Shortcut Modulation". [![arXiv](https://img.shields.io/badge/arXiv-2602.11451-b31b1b.svg)](https://arxiv.org/abs/2602.11451) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=RzYXb5YWBs) [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://loopformer.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/ArmenAgha/loopformer) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Models-yellow.svg)](https://huggingface.co/collections/ArmenAgha/loopformer)
 
-- **Thinking Deeper, Not Longer: Depth-Recurrent Transformers for Compositional Generalization**. [![arXiv](https://img.shields.io/badge/arXiv-2603.21676-b31b1b.svg)](https://arxiv.org/abs/2603.21676)
-
 - **Thinking in Latents: Adaptive Anchor Refinement for Implicit Reasoning in LLMs**. [![arXiv](https://img.shields.io/badge/arXiv-2603.15051-b31b1b.svg)](https://arxiv.org/abs/2603.15051) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=fyWD8DDPKE)
+
+- **Depth-Recurrent Attention Mixtures: Giving Latent Reasoning the Attention it Deserves**. [![arXiv](https://img.shields.io/badge/arXiv-2601.21582-b31b1b.svg)](https://arxiv.org/abs/2601.21582)
+
+- **Thinking Deeper, Not Longer: Depth-Recurrent Transformers for Compositional Generalization**. [![arXiv](https://img.shields.io/badge/arXiv-2603.21676-b31b1b.svg)](https://arxiv.org/abs/2603.21676)
 
 - **Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers**. [![arXiv](https://img.shields.io/badge/arXiv-2604.07822-b31b1b.svg)](https://arxiv.org/abs/2604.07822) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/OSU-NLP-Group/Loop-Think-Generalize)
 
 - **A Mechanistic Analysis of Looped Reasoning Language Models**. [![arXiv](https://img.shields.io/badge/arXiv-2604.11791-b31b1b.svg)](https://arxiv.org/abs/2604.11791)
+
+### 🦾 Vision-Language-Action Models
+
+Vision-language-action systems that use latent iterative refinement instead of explicit tokenized reasoning.
+
+- **RD-VLA**: "Recurrent-Depth VLA: Implicit Test-Time Compute Scaling of Vision-Language-Action Models via Latent Iterative Reasoning". [![arXiv](https://img.shields.io/badge/arXiv-2602.07845-b31b1b.svg)](https://arxiv.org/abs/2602.07845) [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/forum?id=hsIm52gD9p) [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://rd-vla.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/rd-vla/rd-vla)
 
 ### 🚫 Excluded (Supervised)
 
